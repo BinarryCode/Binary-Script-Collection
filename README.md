@@ -11,3 +11,4 @@ Offset(X, Y, SpriteX, SpriteY)
 * Then, run the script. You should be able to copy the offsets for use with the PK3.
 
 If there are any issues, please do a issue or pull request.
+Note that you will need to manually edit it a bit, but there's not much I can do about that.
