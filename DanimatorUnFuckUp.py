@@ -11,7 +11,7 @@ print("SpriteX and SpriteY should be the same as they are in SLADE.")
 
 def Offset(movedX, movedY, spriteX, spriteY):
 	finalX = (-movedX + -spriteX)
-	finalY = (movedY + spriteY)# + 32
+	finalY = (movedY + spriteY)
 	print("Offset(" + str(finalX) + ", " + str(finalY) + ")")
 
 # Put Offset lines below here
