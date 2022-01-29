@@ -7,11 +7,11 @@ print("Because the developer didn't open-source it.")
 print("To use, edit the bottom of this file to contain offsets formatted as so:")
 print("Offset(X, Y, SpriteX, SpriteY)")
 print("X and Y should be the same as it is in Danimator.")
-print("SpriteX and SpriteY should be the same as they are in SLADE3.")
+print("SpriteX and SpriteY should be the same as they are in SLADE.")
 
 def Offset(movedX, movedY, spriteX, spriteY):
-	finalX = (movedX + spriteX)
-	finalY = (movedY + spriteY)
+	finalX = (-movedX + -spriteX)
+	finalY = (movedY + spriteY)# + 32
 	print("Offset(" + str(finalX) + ", " + str(finalY) + ")")
 
 # Put Offset lines below here
