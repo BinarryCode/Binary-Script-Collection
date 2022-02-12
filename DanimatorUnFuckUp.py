@@ -10,7 +10,7 @@ print("X and Y should be the same as it is in Danimator.")
 print("SpriteX and SpriteY should be the same as they are in SLADE.")
 
 def Offset(movedX, movedY, spriteX, spriteY):
-	finalX = (-movedX + -spriteX)
+	finalX = (movedX + spriteX)
 	finalY = (movedY + spriteY)
 	print("Offset(" + str(finalX) + ", " + str(finalY) + ")")
 
