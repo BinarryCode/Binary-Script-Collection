@@ -15,9 +15,6 @@ outline = (0,0,0,255) # outline color - black
 # everything else
 white = (255,255,255,255)
 sorrynothing = (0,0,0,0)
-img = Image.open('test.png')
-width = img.size[0] 
-height = img.size[1]
 filename = sys.argv[1]
 filenamePNGReduct = filename[:- 4]
 pall_array = ["_primary.png", "_secondary.png", "_outline.png"]
@@ -25,6 +22,8 @@ pall_array = ["_primary.png", "_secondary.png", "_outline.png"]
 # primary 
 for times in range(3):
 	img = Image.open(str(filename))
+	width = img.size[0] 
+	height = img.size[1]
 	for i in range(0,width):# process all pixels
 		for j in range(0,height):
 			data = img.getpixel((i,j))
