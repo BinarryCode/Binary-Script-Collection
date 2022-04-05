@@ -14,6 +14,10 @@ def Offset(movedX, movedY, spriteX, spriteY):
 	finalY = (movedY + spriteY)
 	print("Offset(" + str(finalX) + ", " + str(finalY) + ")")
 
+# Put Offset stuff here!
+
+# Other examples below, comment them out (like the Dr Jekyll example is) or remove before calling.
+
 # Wekapipo Mainfire Example
 # First two arguments are from Danimator.
 # Last two arguments are from SLADE.
