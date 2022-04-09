@@ -1,6 +1,6 @@
 /// mm4_distcheck(target_obj)
 // Returns either 0 for short, 1 for mid, or 2 for long.
-// MM4 uses this for the bosses, hence the name of the script.
+// MM4 uses this for most of the bosses, hence the name of the script.
 // target should usually be objMegaman.
 if(instance_exists(argument0))
 {
