@@ -19,7 +19,7 @@ filename = sys.argv[1]
 filenamePNGReduct = filename[:- 4]
 pall_array = ["_primary.png", "_secondary.png", "_outline.png"]
 #filenamePNGReduct = os.path.basename(filename)
-# primary 
+# The actual function 
 for times in range(3):
 	img = Image.open(str(filename))
 	width = img.size[0] 
