@@ -103,5 +103,6 @@ Bright Man's chances of using each attack, as shown in [this video](https://yout
             yspeed = 0;
         }
     }
-}```
+}
+```
 Needle Man's projectile being fired. It works like this in MM3.
