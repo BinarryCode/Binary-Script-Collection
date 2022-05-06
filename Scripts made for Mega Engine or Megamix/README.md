@@ -33,8 +33,7 @@ jumpYValue[3] = fc_value($06,$88);
 Shadow Man's jump values taken from [a MM3 Disassembly](https://github.com/refreshing-lemonade/megaman3-disassembly). (His gravity is 0.33 instead of 0.25)
 
 # xydistcheck(axis, target)
-## A distance check that is more accurate to the source games.
-## Used in the below script.
+## A distance check that is more accurate to the source games, and used in the script below.
 # mm4_distcheck(target)
 ## Made to help with accurately recreating MM4's boss AI, or for custom battles.
 ## Usage Example (uses chance.gml)
