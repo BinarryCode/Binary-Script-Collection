@@ -30,7 +30,7 @@ jumpYValue[1] = fc_value($06,$88);
 jumpYValue[2] = fc_value($08,$00);
 jumpYValue[3] = fc_value($06,$88);
 ```
-Shadow Man's jump values taken from [a MM3 Disassembly](https://github.com/refreshing-lemonade/megaman3-disassembly). (His gravity is 0.33 instead of 0.25)
+Shadow Man's jump values taken from [a MM3 Disassembly](https://github.com/refreshing-lemonade/megaman3-disassembly). (Shadowman's gravity is 0.33 instead of 0.25, which is why these values are a bit high.)
 
 # xydistcheck(axis, target)
 ## A distance check that is more accurate to the source games, and used in the script below.
