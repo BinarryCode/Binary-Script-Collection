@@ -4,9 +4,11 @@
 // target should usually be objMegaman.
 if(instance_exists(argument0))
 {
-    if abs(x - argument0.x) < 64
+var dist;
+dist = xydistcheck(0,argument0);
+    if dist < 64
         return 0;
-    else if abs(x - argument0.x) < 128
+    else if dist < 128
         return 1;
     else
         return 2;
