@@ -34,11 +34,11 @@ Shadow Man's jump values taken from [a MM3 Disassembly](https://github.com/refre
 
 # xydistcheck(axis, target)
 ## A distance check that is more accurate to the source games, and used in the script below.
-# mm4_distcheck(target)
+# mm4_distcheck(target, dist1, dist2)
 ## Made to help with accurately recreating MM4's boss AI, or for custom battles.
 ## Usage Example (uses chance.gml)
 ```
-switch(mm4_distcheck(objMegaman))
+switch(mm4_distcheck(objMegaman, 64, 128))
 {
     case 0:
         choosingJump = 62.5;
