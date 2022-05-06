@@ -18,7 +18,11 @@ Offset(X, Y, SpriteX, SpriteY)
 # Megamix-Palette.py
 ## Made for use with [Megamix Engine](https://magmmlcontest.com/megamix.php), but can be used with [Mega Engine](https://www.sprites-inc.co.uk/thread-1648.html) as well.
 ## Instructions
-* Install the requirements (NumPy, Pillow/PIL)
+* Installed the following required packages:
+```
+pip install numpy
+pip install pillow
+```
 * Edit the top of the Python script to include proper character colors if needed.
 * Then, run the script as so, replacing "(filename)" with your filename:
 `
