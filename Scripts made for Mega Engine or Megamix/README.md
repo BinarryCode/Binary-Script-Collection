@@ -104,4 +104,4 @@ Bright Man's chances of using each attack, as shown in [this video](https://yout
     }
 }
 ```
-Needle Man's projectile being fired. It works like this in MM3.
+Needle Man's projectile being fired. It works like this in MM3. Credits to SokZaJelo for reverse-engineering this!
