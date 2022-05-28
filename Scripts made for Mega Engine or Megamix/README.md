@@ -7,7 +7,7 @@
 # Megamix-Palette.py
 ## Made to help with whitemasking. ONLY WORKS WITH PNGS!
 ## Instructions
-* Installed the following required packages:
+* Install the following required packages:
 ```
 pip install numpy
 pip install pillow
