@@ -7,6 +7,7 @@ loop_dir = curr_dir + "\\Loops\\Loop.txt";
 loop_start = 0;
 loop_end = 0;
 loop_tracker = 0;
+sample_rate = 44100;
 mus_name = "";
 with open(loop_dir,'r') as file:
 	# reading each line    
@@ -26,6 +27,6 @@ with open(loop_dir,'r') as file:
 				if(word == sys.argv[1]):
 					# loop properly
 					#print("loopin' time!")
-					os.system("ffmpeg -i {} -af atrim=start_sample=0:end_sample={} -metadata LOOP_START={} -c:a libvorbis {}".format(mus_name, loop_end, loop_start, mus_name[:-4] + "_LOOP.ogg"));
+					os.system("ffmpeg -i {} -to {} -metadata LOOP_START={} -c copy {}".format(mus_name, str((int(loop_end)) / (sample_rate)), loop_start, mus_name[:-4] + "_LOOP.ogg"));
 			loop_tracker = (loop_tracker + 1) % 3;
-			print(word);
+			#print(word);
