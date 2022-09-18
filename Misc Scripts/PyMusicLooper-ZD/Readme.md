@@ -1,7 +1,3 @@
-usage:
-drag and drop music files into .bat, or in command prompt:
-mus_loop.bat (music file names, separated by spaces)
-
 # "Mus_Loop" - Music Looper made for Zandronum or other ZDoom forks.
 ## Requires [PyMusicLooper](https://github.com/arkrow/PyMusicLooper#installation)!
 ## Instructions
