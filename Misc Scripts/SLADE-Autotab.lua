@@ -22,7 +22,7 @@ end
 
 -- Go through all entries in the currently selected archive
 local archive = App.currentArchive()
-App.logMessage(App.globalError())
+--App.logMessage(App.globalError())
 for i,entry in ipairs(App.currentEntrySelection()) do
     -- Do search if the entry is opened in the text editor
     if entry.type.editor == 'text' then
