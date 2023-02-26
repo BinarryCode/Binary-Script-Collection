@@ -86,10 +86,10 @@ with open("TEXTURES.txt", "a") as file:
                     if png_files[j] not in sprites_duplicate_array:
                         sprites_duplicate_array.append(png_files[j])
                     
-                    file.write(f'Sprite "{png_files[j]}", {sprite_b_width}, {sprite_b_height}\n')
+                    file.write(f'Sprite "{png_files[j][:-4]}", {sprite_b_width}, {sprite_b_height}\n')
                     file.write('{\n')
                     file.write(f'	Offset {xOff}, {yOff}\n')
-                    file.write(f'	Patch "{png_files[i]}", 0, 0\n')
+                    file.write(f'	Patch "{png_files[i][:-4]}", 0, 0\n')
                     file.write('	{\n')
                     if flipped_horizontally:
                         file.write('		FlipX\n')
