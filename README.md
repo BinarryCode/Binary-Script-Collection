@@ -1,4 +1,8 @@
 # "Binary's Script Collection"
+## REPOSITORY IS OUTDATED
+It has been moved to here: https://codeberg.org/BinaryCode/Binary-Script-Collection
+
+# Original Description
 ## A collection of scripts that I have made.
 If there are any issues, please do a issue or pull request.
 
